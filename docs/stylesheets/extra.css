@@ -1,0 +1,11 @@
+/* Custom colors */
+:root  > * {
+    /* https://www.northwestern.edu/brand/visual-identity/color-palettes/ */
+    --md-primary-fg-color:        #4E2A84; /* Northwestern Purple */
+    --md-primary-fg-color--light: #B6ACD1; /* Purple 30 */
+    --md-primary-fg-color--dark:  #260841; /* Purple 150 */
+  }
+
+/* Hide the form until all .policy-check inputs are checked */
+/* .ack-panel { display: none; } */
+/* .policy-ack:not(:has(input.policy-check:not(:checked))) .ack-panel { display: block; } */

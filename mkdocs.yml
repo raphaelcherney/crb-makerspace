@@ -1,0 +1,56 @@
+site_name: Northwestern CRB Makerspace
+theme:
+  name: material
+  logo: assets/nu-logo.svg
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+  palette:
+    primary: custom
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  # for admonitions
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # for images
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  # for buttons
+  - attr_list
+  # for iframe rendering
+  - md_in_html
+  # for tables
+  - tables
+repo_url: https://github.com/northwestern-crb/makerspace-docs
+nav:
+  - Home: index.md
+  - Policies: policies.md
+  - Request Training: mailto:raphael.cherney@northwestern.edu?subject=CRB%20Makerspace%20Training
+  - Equipment:
+    - 3D Printers: equipment/3d-printers.md
+    - Hand and Power Tools: 
+      - Overview: equipment/hand-and-power-tools.md
+      - Dremel Rotary Tool: equipment/rotary-tool.md
+    - Machine Tools:
+      - Drill Press: equipment/drill-press.md
+      - Vertical Band Saw: equipment/vertical-band-saw.md
+      - Horizontal Band Saw: equipment/horizontal-band-saw.md
+      - Mini Lathe: equipment/lathe.md
+      - Mini Mill: equipment/mill.md
+      - CNC Milling Machine: equipment/carvera.md
+      - Laser Cutter: equipment/laser-cutter.md
+    - Electronics:
+      - Overview: electronics.md
+      - Soldering Stations: equipment/soldering-stations.md
+      - Oscilloscopes: equipment/oscilloscopes.md
+      - Power Supplies: equipment/power-supplies.md
+  - Checkout Tool: checkout.md
+  - Report Issue or Request Materials: report-issues/report-issue.md
+
+
+
