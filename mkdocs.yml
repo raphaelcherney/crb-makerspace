@@ -1,4 +1,5 @@
 site_name: Northwestern CRB Makerspace
+site_url: https://www.raphaelcherney.com/crb-makerspace/
 theme:
   name: material
   logo: assets/nu-logo.svg
@@ -26,7 +27,7 @@ markdown_extensions:
   - md_in_html
   # for tables
   - tables
-repo_url: https://www.raphaelcherney.com/crb-makerspace
+repo_url: https://github.com/raphaelcherney/crb-makerspace
 exclude_docs: scheduler-app/README.md
 nav:
   - Home: index.md
