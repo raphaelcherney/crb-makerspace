@@ -50,7 +50,7 @@ html, body{
   display:flex;
   gap:8px;
   align-items:center;
-  flex-wrap:wrap;
+  flex-wrap:nowrap;
 }
 .controls button,
 .controls input[type="date"]{
@@ -60,6 +60,10 @@ html, body{
   background:#fff;
   color:var(--text);
   font-size:14px;
+}
+.controls input[type="date"]{
+  width:140px;
+  flex:0 0 140px;
 }
 .controls button#todayBtn{
   color:#fff;
@@ -439,13 +443,26 @@ select{
   .controls{
     width:100%;
     justify-content:space-between;
+    flex-wrap:wrap;
   }
-  .controls button,
-  .controls input[type="date"]{
-    flex:1;
-    min-width:0;
-    font-size:13px;
+  .controls button#prevDay,
+  .controls button#nextDay{
+    flex:0 0 auto;
+    min-width:36px;
     padding:6px 8px;
+    font-size:16px;
+  }
+  .controls button#todayBtn{
+    flex:0 1 auto;
+    min-width:60px;
+    font-size:13px;
+    padding:6px 10px;
+  }
+  .controls input[type="date"]{
+    width:140px;
+    flex:0 0 140px;
+    font-size:13px;
+    padding:6px 10px;
   }
   .printers-header .printer-header{
     padding:6px 4px;
