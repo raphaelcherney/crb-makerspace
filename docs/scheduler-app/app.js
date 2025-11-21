@@ -108,10 +108,12 @@ function buildTimeColumn(){
     if(m===0){
       const textSpan = document.createElement('span');
       textSpan.className = 'time-text';
-      // Convert to 12-hour format with AM/PM
+      // Convert to 12-hour format with AM/PM (Apple Calendar style)
       const hour12 = h === 0 ? 12 : (h > 12 ? h - 12 : h);
       const ampm = h < 12 ? 'AM' : 'PM';
-      textSpan.textContent = `${hour12}:00 ${ampm}`;
+      // Show "Noon" for 12 PM, otherwise just hour + AM/PM
+      const timeText = (h === 12) ? 'Noon' : `${hour12} ${ampm}`;
+      textSpan.textContent = timeText;
       el.appendChild(textSpan);
     }
     slots.appendChild(el);
@@ -163,18 +165,8 @@ function buildPrinters(){
     printersWrap.appendChild(col);
   });
   
-  // Sync horizontal scrolling between header and columns
-  const calendarRight = printersWrap.parentElement;
-  if(calendarRight && calendarRight.classList.contains('calendar-right')){
-    // Sync scrolling from columns to header
-    calendarRight.addEventListener('scroll', () => {
-      printersHeader.scrollLeft = calendarRight.scrollLeft;
-    });
-    // Sync scrolling from header to columns  
-    printersHeader.addEventListener('scroll', () => {
-      calendarRight.scrollLeft = printersHeader.scrollLeft;
-    });
-  }
+  // Headers and columns are now aligned via CSS table layout
+  // No scrolling sync needed
 }
 
 function onSlotClick(e){
