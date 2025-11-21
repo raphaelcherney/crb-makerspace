@@ -72,7 +72,7 @@ When making straight cuts, use the widest blade available. For contour or scroll
 ## Manual
 
 <iframe
-    src="/manuals/powertec-bs900-manual.pdf"
+    src="../manuals/powertec-bs900-manual.pdf"
     width="100%"
     height="1100px"
     style="border:none;"

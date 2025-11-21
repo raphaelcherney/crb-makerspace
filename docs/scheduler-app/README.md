@@ -50,8 +50,10 @@ A simple, mobile-first single-page web app to reserve 3D printers. Data is store
 
 2. **Embed in MkDocs pages**:
    ```html
-   <iframe src="/scheduler-app/index.html" style="width:100%;height:80vh;border:0;" loading="lazy"></iframe>
+   <iframe src="../../scheduler-app/index.html" style="width:100%;height:80vh;border:0;" loading="lazy"></iframe>
    ```
+   
+   Note: Use relative paths (like `../../scheduler-app/index.html`) when embedding from pages in subdirectories to account for the site's base path.
 
 3. The app is available at `/scheduler-app/` on your GitHub Pages site
 

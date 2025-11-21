@@ -62,7 +62,7 @@ https://littlemachineshop.com/Reference/CuttingSpeeds.php#Turning
 ## Manual
 
 <iframe
-    src="/manuals/hitorque-bench-lathe-users-guide.pdf"
+    src="../manuals/hitorque-bench-lathe-users-guide.pdf"
     width="100%"
     height="1100px"
     style="border:none;"

@@ -44,7 +44,7 @@ The CRB Makerspace has a JET HVBS-56V variable speed band saw to cut plastics an
 ## Manual
 
 <iframe
-    src="/manuals/jet-hvbs-56v-manual.pdf"
+    src="../manuals/jet-hvbs-56v-manual.pdf"
     width="100%"
     height="1100px"
     style="border:none;"

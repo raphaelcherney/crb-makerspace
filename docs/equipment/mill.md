@@ -40,7 +40,7 @@ The CRB Makerspace has a LittleMachineShop HiTorque 4190 Deluxe Mini Mill with 3
 ## Manual
 
 <iframe
-    src="/manuals/hitorque-mini-mill-users-guide.pdf"
+    src="../manuals/hitorque-mini-mill-users-guide.pdf"
     width="100%"
     height="1100px"
     style="border:none;"

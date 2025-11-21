@@ -49,7 +49,7 @@ Wait for the machine to come to a complete stop.
     This manual is for a Delta 11-950 instead of the 11-980, but they appear to be almost the same.
 
 <iframe
-    src="/manuals/delta-11-950-manual.pdf"
+    src="../manuals/delta-11-950-manual.pdf"
     width="100%"
     height="1100px"
     style="border:none;"

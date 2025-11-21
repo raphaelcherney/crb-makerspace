@@ -45,7 +45,7 @@ Tip: Add one inch to tool length to air cut first.
 ## Manual
 
 <iframe
-    src="/manuals/carvera-instruction-manual.pdf"
+    src="../manuals/carvera-instruction-manual.pdf"
     width="100%"
     height="1100px"
     style="border:none;"
